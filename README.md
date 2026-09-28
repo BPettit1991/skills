@@ -101,6 +101,7 @@ repo to install.
   - [**BigQuery Basics**](./skills/cloud/bigquery-basics)
   - [**BigQuery Observability**](./skills/cloud/bigquery-observability)
   - [**BigQuery slot and cost optimizer**](./skills/cloud/bigquery-slot-cost-optimizer)
+  - [**BigQuery Troubleshooting**](./skills/cloud/bigquery-troubleshooting)
   - [**Bigtable Basics**](./skills/cloud/bigtable-basics)
   - [**Cloud SQL Basics**](./skills/cloud/cloud-sql-basics)
   - [**Data Lineage Summary**](./skills/cloud/datalineage-summary)
