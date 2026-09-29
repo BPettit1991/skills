@@ -100,6 +100,7 @@ repo to install.
   - [**BigQuery Asset Impact Analysis**](./skills/cloud/datalineage-bigquery-asset-impact-analysis)
   - [**BigQuery Basics**](./skills/cloud/bigquery-basics)
   - [**BigQuery Observability**](./skills/cloud/bigquery-observability)
+  - [**BigQuery Optimization Workflow**](./skills/cloud/bigquery-optimization)
   - [**BigQuery slot and cost optimizer**](./skills/cloud/bigquery-slot-cost-optimizer)
   - [**BigQuery Troubleshooting**](./skills/cloud/bigquery-troubleshooting)
   - [**Bigtable Basics**](./skills/cloud/bigtable-basics)
