@@ -1,7 +1,7 @@
 {
-  "name": "google-plugins",
+  "name": "bpettit-plugins",
   "owner": {
-    "name": "Google LLC"
+    "name": "BPettit1991"
   },
   "metadata": {
     "version": "0.0.1",
@@ -157,6 +157,11 @@
       "name": "google-cloud-developer",
       "source": "./plugins/cloud/google-cloud-developer",
       "description": "Core Google Cloud guidance for coding agents: first-project onboarding, authentication and credential selection, and safety-critical validation for gcloud CLI commands. Includes the Google Developer Knowledge MCP server for grounded, up-to-date Google Cloud documentation."
+    },
+    {
+      "name": "phone-voice",
+      "source": "./plugins/personal/phone-voice",
+      "description": "Skills for a phone/voice executive assistant on Gemini: Live API, Gemini API, bidirectional streaming architecture, Genkit (JS), and Firebase CLI setup."
     }
   ]
 }

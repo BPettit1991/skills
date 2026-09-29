@@ -1,0 +1,8 @@
+{
+  "name": "phone-voice",
+  "version": "0.1.0",
+  "description": "Skills for building a phone/voice executive assistant on Gemini: Live API real-time voice, Gemini API, bidirectional streaming architecture, Genkit (JS), and Firebase CLI setup.",
+  "author": {
+    "name": "BPettit1991"
+  }
+}
