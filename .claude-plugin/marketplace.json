@@ -162,6 +162,153 @@
       "name": "phone-voice",
       "source": "./plugins/personal/phone-voice",
       "description": "Skills for a phone/voice executive assistant on Gemini: Live API, Gemini API, bidirectional streaming architecture, Genkit (JS), and Firebase CLI setup."
+    },
+    {
+      "name": "context7",
+      "source": {
+        "source": "git-subdir",
+        "url": "upstash/context7",
+        "path": "plugins/claude/context7",
+        "sha": "5c4a4b43cd5010f5678c6fceac3dd16865112e67"
+      },
+      "description": "Upstash Context7 MCP server for up-to-date, version-specific library documentation lookup."
+    },
+    {
+      "name": "repomix-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "yamadashy/repomix",
+        "path": ".claude/plugins/repomix-mcp",
+        "ref": "v1.19.0"
+      },
+      "description": "Repomix MCP server: pack local or remote repositories and search or read the generated output."
+    },
+    {
+      "name": "repomix-commands",
+      "source": {
+        "source": "git-subdir",
+        "url": "yamadashy/repomix",
+        "path": ".claude/plugins/repomix-commands",
+        "ref": "v1.19.0"
+      },
+      "description": "Slash commands for quick Repomix operations such as /pack-local and /pack-remote."
+    },
+    {
+      "name": "repomix-explorer",
+      "source": {
+        "source": "git-subdir",
+        "url": "yamadashy/repomix",
+        "path": ".claude/plugins/repomix-explorer",
+        "ref": "v1.19.0"
+      },
+      "description": "Repository analysis agent that runs the Repomix CLI and reads the packed output."
+    },
+    {
+      "name": "ecc",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code",
+        "ref": "v2.2.3"
+      },
+      "description": "everything-claude-code: a large bundle of agents, skills, command shims, hooks and rules for engineering teams."
+    },
+    {
+      "name": "planning-with-files",
+      "source": {
+        "source": "github",
+        "repo": "OthmanAdi/planning-with-files",
+        "sha": "51bf62def62d1cb317d37936929b4ef97cf862c3"
+      },
+      "description": "Persistent project planning files with lifecycle hooks that inject selected plan context."
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "ref": "v2.15.0"
+      },
+      "description": "UI/UX design intelligence: a searchable local database of styles, palettes, font pairings, charts and stacks."
+    },
+    {
+      "name": "beads",
+      "source": {
+        "source": "git-subdir",
+        "url": "steveyegge/beads",
+        "path": "plugins/beads",
+        "ref": "v1.3.4"
+      },
+      "description": "AI-supervised issue tracker for coding workflows, driven by the bd CLI."
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "source": {
+        "source": "github",
+        "repo": "forrestchang/andrej-karpathy-skills",
+        "sha": "2c606141936f1eeef17fa3043a72095b4765b9c2"
+      },
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations."
+    },
+    {
+      "name": "taste-skill",
+      "source": {
+        "source": "github",
+        "repo": "Leonxlnx/taste-skill",
+        "ref": "v2.5.1"
+      },
+      "description": "Frontend design skill for professional company websites, with a real-browser checker and finish gate.",
+      "strict": false,
+      "skills": [
+        "./skills/taste-skill"
+      ]
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills",
+        "ref": "v1.3.2"
+      },
+      "description": "Matt Pocock's agent skills: grilling, spec and ticket flows, TDD, code review and domain modelling."
+    },
+    {
+      "name": "headroom",
+      "source": {
+        "source": "git-subdir",
+        "url": "chopratejas/headroom",
+        "path": "plugins/headroom-agent-hooks",
+        "ref": "v0.44.0"
+      },
+      "description": "Headroom startup hooks for Claude Code and GitHub Copilot CLI."
+    },
+    {
+      "name": "headroom-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "chopratejas/headroom",
+        "path": "plugins/headroom-skill",
+        "ref": "v0.44.0"
+      },
+      "description": "Skill for adding headroom-ai compress() to a Python or TypeScript app to cut LLM input tokens."
+    },
+    {
+      "name": "headroom-snip",
+      "source": {
+        "source": "git-subdir",
+        "url": "chopratejas/headroom",
+        "path": "plugins/headroom-snip",
+        "ref": "v0.44.0"
+      },
+      "description": "Shows the tokens Headroom snips off each Claude Code request, with a /headroom log and running total."
+    },
+    {
+      "name": "caveman",
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman",
+        "ref": "v4.1.0"
+      },
+      "description": "Ultra-compressed communication mode that shortens prose while preserving technical terms, code and exact errors."
     }
   ]
 }
